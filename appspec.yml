@@ -8,6 +8,9 @@ hooks:
     - location: scripts\install_dependencies.ps1
       timeout: 300
       runas: Administrator
+    - location: scripts\stop_server.ps1
+      timeout: 300
+      runas: Administrator
     - location: scripts\start_server.ps1
       timeout: 300
       runas: Administrator
