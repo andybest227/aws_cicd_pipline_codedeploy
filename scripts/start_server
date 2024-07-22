@@ -1,2 +1,4 @@
-#!/bin/bash
-service httpd start
+# Example PowerShell script to start IIS
+
+# Start IIS service
+Start-Service -Name W3SVC
