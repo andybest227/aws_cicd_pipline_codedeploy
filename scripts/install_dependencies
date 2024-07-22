@@ -1,3 +1,7 @@
-#!/bin/bash
-yum install -y httpd
+# Example PowerShell script to install IIS (equivalent to installing httpd on Linux)
 
+# Import the ServerManager module if not already imported
+Import-Module ServerManager
+
+# Install IIS (Internet Information Services)
+Add-WindowsFeature -Name Web-Server
